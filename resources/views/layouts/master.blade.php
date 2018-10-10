@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 			<ul class="navbar-nav">
 				<li class="nav-item">
 					<a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
-				</li>      
+				</li>
 			</ul>
 
 			<!-- SEARCH FORM -->
@@ -36,7 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 						</button>
 					</div>
 				</div>
-			</form>   
+			</form>
 		</nav>
 		<!-- /.navbar -->
 
@@ -72,7 +72,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 									Dashboard
 								</p>
 							</router-link>
-						</li>               
+						</li>
 						<li class="nav-item has-treeview">
 							<a href="#" class="nav-link">
 								<i class="nav-icon fa fa-cog green"></i>
@@ -89,7 +89,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 									</router-link>
 								</li>
 							</ul>
-						</li>						
+						</li>
 						<li class="nav-item">
 							<router-link to="/profile" class="nav-link">
 								<i class="nav-icon fas fa-user orange"></i>
@@ -104,11 +104,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 								<p>
 									{{ __('Logout') }}
 								</p>
-							</a>							
+							</a>
 							<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
 								@csrf
 							</form>
-						</li>         
+						</li>
 					</ul>
 				</nav>
 				<!-- /.sidebar-menu -->
@@ -117,11 +117,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 		</aside>
 
 		<!-- Content Wrapper. Contains page content -->
-		<div class="content-wrapper">    
+		<div class="content-wrapper">
 			<!-- Main content -->
 			<div class="content">
 				<div class="container-fluid">
 					<router-view></router-view>
+					<vue-progress-bar></vue-progress-bar>
 				</div>
 			</div>
 			<!-- /.content -->

@@ -66,7 +66,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 					<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 						<!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
 						<li class="nav-item">
-							<router-link to="/dashboard" class="nav-link">
+							<router-link to="/admin/dashboard" class="nav-link">
 								<i class="nav-icon fas fa-tachometer-alt blue"></i>
 								<p>
 									Dashboard
@@ -83,7 +83,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 							</a>
 							<ul class="nav nav-treeview">
 								<li class="nav-item">
-									<router-link to="/users" class="nav-link">
+									<router-link to="/admin/users" class="nav-link">
 										<i class="fas fa-users nav-icon"></i>
 										<p>Users</p>
 									</router-link>
@@ -91,7 +91,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 							</ul>
 						</li>
 						<li class="nav-item">
-							<router-link to="/developer" class="nav-link">
+							<router-link to="/admin/developer" class="nav-link">
 								<i class="nav-icon fas fa-cogs"></i>
 								<p>
 									Developer
@@ -99,7 +99,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 							</router-link>
 						</li>
 						<li class="nav-item">
-							<router-link to="/profile" class="nav-link">
+							<router-link to="/admin/profile" class="nav-link">
 								<i class="nav-icon fas fa-user orange"></i>
 								<p>
 									Profile

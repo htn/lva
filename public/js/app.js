@@ -30746,7 +30746,7 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_4_vue_progressbar___default.a, {
   height: '3px'
 });
 
-var routes = [{ path: '/dashboard', component: __webpack_require__(172) }, { path: '/users', component: __webpack_require__(175) }, { path: '/developer', component: __webpack_require__(178) }, { path: '/profile', component: __webpack_require__(181) }];
+var routes = [{ path: '/admin/dashboard', component: __webpack_require__(172) }, { path: '/admin/users', component: __webpack_require__(175) }, { path: '/admin/developer', component: __webpack_require__(178) }, { path: '/admin/profile', component: __webpack_require__(181) }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_3_vue_router__["a" /* default */]({
   mode: 'history',
@@ -72775,7 +72775,7 @@ var content = __webpack_require__(186);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(6)("3fb47d42", content, false, {});
+var update = __webpack_require__(6)("2c474aa2", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -73824,7 +73824,7 @@ var content = __webpack_require__(192);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(6)("08567357", content, false, {});
+var update = __webpack_require__(6)("415fee92", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -74144,7 +74144,7 @@ var content = __webpack_require__(197);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(6)("8c30d4da", content, false, {});
+var update = __webpack_require__(6)("cf94f79a", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags

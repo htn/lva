@@ -37,10 +37,10 @@
  });
 
  let routes = [
- { path: '/dashboard', component: require('./components/Dashboard.vue') },
- { path: '/users', component: require('./components/Users.vue') },
- { path: '/developer', component: require('./components/Developer.vue') },
- { path: '/profile', component: require('./components/Profile.vue') }
+ { path: '/admin/dashboard', component: require('./components/Dashboard.vue') },
+ { path: '/admin/users', component: require('./components/Users.vue') },
+ { path: '/admin/developer', component: require('./components/Developer.vue') },
+ { path: '/admin/profile', component: require('./components/Profile.vue') }
  ];
 
  const router = new VueRouter({

@@ -4,7 +4,7 @@
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Users Table</h3>
+                <h3 class="card-title">Groups Table</h3>
                 <div class="card-tools">
                     <button class="btn btn-success" @click="addUser">Add new <i class="fas fa-user-plus fa-fw"></i></button>
                 </div>
@@ -119,11 +119,11 @@
             $('#addNew').modal('show');
           },
           loadUsers() {
-            axios.get('user').then(({data})=>(this.users = data.data));
+            axios.get('api/user').then(({data})=>(this.users = data.data));
           },
           createUser() {
             this.$Progress.start();
-            this.form.post('user')
+            this.form.post('api/user')
             .then(()=>{
               Fire.$emit('AfterCreate');
               $('#addNew').modal('hide');
@@ -139,7 +139,7 @@
           },
           updateUser(id) {
             this.$Progress.start();
-            this.form.put('user/'+this.form.id)
+            this.form.put('api/user/'+this.form.id)
             .then(()=>{
               Fire.$emit('AfterCreate');
               $('#addNew').modal('hide');
@@ -164,7 +164,7 @@
             }).then((result) => {
               // Send request to server
               if (result.value) {
-                this.form.delete('user/'+id).then(()=>{
+                this.form.delete('api/user/'+id).then(()=>{
                   swal(
                     'Deleted!',
                     'Your file has been deleted.',

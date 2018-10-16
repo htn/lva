@@ -92,76 +92,7 @@
                   params: '',
                   description: ''
               }),
-              jstreedata: [
-                {
-                  "text": "Same but with checkboxes",
-                  "children": [
-                    {
-                      "text": "initially selected",
-                      "selected": true
-                    },
-                    {
-                      "text": "custom icon",
-                      "icon": "fa fa-warning icon-state-danger"
-                    },
-                    {
-                      "text": "initially open",
-                      "icon": "fa fa-folder icon-state-default",
-                      "opened": true,
-                      "children": [
-                        {
-                          "text": "Another node"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "custom icon",
-                      "icon": "fa fa-warning icon-state-warning"
-                    },
-                    {
-                      "text": "disabled node",
-                      "icon": "fa fa-check icon-state-success",
-                      "disabled": true
-                    }
-                  ]
-                },
-                {
-                  "text": "Same but with checkboxes",
-                  "opened": true,
-                  "children": [
-                    {
-                      "text": "initially selected",
-                      "selected": true
-                    },
-                    {
-                      "text": "custom icon",
-                      "icon": "fa fa-warning icon-state-danger"
-                    },
-                    {
-                      "text": "initially open",
-                      "icon": "fa fa-folder icon-state-default",
-                      "opened": true,
-                      "children": [
-                        {
-                          "text": "Another node"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "custom icon",
-                      "icon": "fa fa-warning icon-state-warning"
-                    },
-                    {
-                      "text": "disabled node",
-                      "icon": "fa fa-check icon-state-success",
-                      "disabled": true
-                    }
-                  ]
-                },
-                {
-                  "text": "And wholerow selection"
-                }
-              ]
+              jstreedata: [],
             }
         },
         components: {
@@ -173,6 +104,76 @@
             this.form.reset();
             $('#addNew').modal('show');
             this.form.fill(group);
+            this.jstreedata = [
+              {
+                "text": "Same but with checkboxes",
+                "children": [
+                  {
+                    "text": "initially selected",
+                    "selected": true
+                  },
+                  {
+                    "text": "custom icon",
+                    "icon": "fa fa-warning icon-state-danger"
+                  },
+                  {
+                    "text": "initially open",
+                    "icon": "fa fa-folder icon-state-default",
+                    "opened": true,
+                    "children": [
+                      {
+                        "text": "Another node"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "custom icon",
+                    "icon": "fa fa-warning icon-state-warning"
+                  },
+                  {
+                    "text": "disabled node",
+                    "icon": "fa fa-check icon-state-success",
+                    "disabled": true
+                  }
+                ]
+              },
+              {
+                "text": "Same but with checkboxes",
+                "opened": true,
+                "children": [
+                  {
+                    "text": "initially selected",
+                    "selected": true
+                  },
+                  {
+                    "text": "custom icon",
+                    "icon": "fa fa-warning icon-state-danger"
+                  },
+                  {
+                    "text": "initially open",
+                    "icon": "fa fa-folder icon-state-default",
+                    "opened": true,
+                    "children": [
+                      {
+                        "text": "Another node"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "custom icon",
+                    "icon": "fa fa-warning icon-state-warning"
+                  },
+                  {
+                    "text": "disabled node",
+                    "icon": "fa fa-check icon-state-success",
+                    "disabled": true
+                  }
+                ]
+              },
+              {
+                "text": "And wholerow selection"
+              }
+            ]
           },
           addGroup(group) {
             this.editmode = false;

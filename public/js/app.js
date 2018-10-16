@@ -71948,7 +71948,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         params: '',
         description: ''
       }),
-      jstreedata: [{
+      jstreedata: []
+    };
+  },
+
+  components: {
+    VJstree: __WEBPACK_IMPORTED_MODULE_0_vue_jstree___default.a
+  },
+  methods: {
+    editGroup: function editGroup(group) {
+      this.editmode = true;
+      this.form.reset();
+      $('#addNew').modal('show');
+      this.form.fill(group);
+      this.jstreedata = [{
         "text": "Same but with checkboxes",
         "children": [{
           "text": "initially selected",
@@ -71997,19 +72010,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }]
       }, {
         "text": "And wholerow selection"
-      }]
-    };
-  },
-
-  components: {
-    VJstree: __WEBPACK_IMPORTED_MODULE_0_vue_jstree___default.a
-  },
-  methods: {
-    editGroup: function editGroup(group) {
-      this.editmode = true;
-      this.form.reset();
-      $('#addNew').modal('show');
-      this.form.fill(group);
+      }];
     },
     addGroup: function addGroup(group) {
       this.editmode = false;

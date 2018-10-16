@@ -29887,3 +29887,7 @@ readers do not read off random characters that represent icons */
   color: #fff !important;
 }
 
+li.nav-item > ul > li.nav-item > a.nav-link {
+  padding-left: 50px;
+}
+

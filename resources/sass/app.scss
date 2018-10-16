@@ -22,3 +22,6 @@ $fa-font-path: "../webfonts";
 	background-color: #3f51b5;
 	color: #fff !important;
 }
+li.nav-item > ul > li.nav-item > a.nav-link {
+	padding-left: 50px;
+}

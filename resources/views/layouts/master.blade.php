@@ -97,7 +97,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 								<li class="nav-item">
 									<router-link to="/admin/categories" class="nav-link">
 										<i class="fas fa-user nav-icon"></i>
-										<p>Category</p>
+										<p>Categories</p>
 									</router-link>
 								</li>
 							</ul>

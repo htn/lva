@@ -40,6 +40,7 @@
  { path: '/admin/dashboard', component: require('./components/Dashboard.vue') },
  { path: '/admin/groups', component: require('./components/Groups.vue') },
  { path: '/admin/users', component: require('./components/Users.vue') },
+ { path: '/admin/categories', component: require('./components/Categories.vue') },
  { path: '/admin/developer', component: require('./components/Developer.vue') },
  { path: '/admin/profile', component: require('./components/Profile.vue') }
  ];

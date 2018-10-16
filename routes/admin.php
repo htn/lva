@@ -16,4 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('/group', function (Request $request) {
+    return $request->group();
+});
+Route::apiResources(['group' => 'API\GroupController']);
 Route::apiResources(['user' => 'API\UserController']);

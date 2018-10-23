@@ -17,8 +17,8 @@ class GroupController extends Controller {
     public function index() {
         $model = new Menu();
         $menu = $model->tree_menu_pure();
-        echo json_encode($menu); die;
-        return Group::latest()->paginate(10);
+        //$trees = str_replace('"false"', 'false', json_encode($menu));
+        return array('menu'=>$menu, 'list'=>Group::latest()->paginate(10));
     }
 
     /**

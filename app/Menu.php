@@ -3,14 +3,16 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use DB;
 
 class Menu extends Model
 {
     function tree_menu_pure() {
         $nodeList = array();
         $tree = array();
-        $rs = $this->all()->toArray();        
+        $rs = $this->select('id', 'name as text', 'route as value', 'classicon as icon', 'parent', 'params', DB::raw("'false' as opened"), DB::raw("'false' as selected"), DB::raw("'false' as disabled"), DB::raw("'false' as loading"))
+                ->orderBy('parent')
+                ->get()->toArray();        
         foreach ($rs as $row) {          
             $nodeList[$row['id']] = array_merge($row, array('children' => array()));
         }

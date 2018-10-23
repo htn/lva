@@ -518,7 +518,7 @@
                 $('#addNew').modal('show');
             },
             loadGroups() {
-                axios.get('group').then(({data}) => (this.groups = data.data));
+                axios.get('group').then(({data}) => (this.groups = data.list.data));
             },
             createGroup() {
                 this.$Progress.start();

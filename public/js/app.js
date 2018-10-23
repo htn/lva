@@ -72303,7 +72303,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
             axios.get('group').then(function (_ref) {
                 var data = _ref.data;
-                return _this.groups = data.data;
+                return _this.groups = data.list.data;
             });
         },
         createGroup: function createGroup() {

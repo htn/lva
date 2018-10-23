@@ -93,7 +93,7 @@
                     description: ''
                 }),
                 jstreedata: []
-            }
+            };
         },
         components: {
             VJstree
@@ -107,87 +107,8 @@
                 this.jstreedata = [
                     {
                         "id": 0,
-                        "text": "Same but with checkboxes",
-                        "value": "Same but with checkboxes",
-                        "icon": "",
-                        "opened": false,
-                        "selected": false,
-                        "disabled": false,
-                        "loading": false,
-                        "children": [
-                            {
-                                "id": 1,
-                                "text": "initially selected",
-                                "value": "initially selected",
-                                "icon": "",
-                                "opened": false,
-                                "selected": true,
-                                "disabled": false,
-                                "loading": false,
-                                "children": []
-                            },
-                            {
-                                "id": 2,
-                                "text": "custom icon",
-                                "value": "custom icon",
-                                "icon": "fa fa-warning icon-state-danger",
-                                "opened": false,
-                                "selected": false,
-                                "disabled": false,
-                                "loading": false,
-                                "children": []
-                            },
-                            {
-                                "id": 3,
-                                "text": "initially open",
-                                "value": "initially open",
-                                "icon": "fa fa-folder icon-state-default",
-                                "opened": true,
-                                "selected": false,
-                                "disabled": false,
-                                "loading": false,
-                                "children": [
-                                    {
-                                        "id": 4,
-                                        "text": "Another node",
-                                        "value": "Another node",
-                                        "icon": "",
-                                        "opened": false,
-                                        "selected": false,
-                                        "disabled": false,
-                                        "loading": false,
-                                        "children": []
-                                    }
-                                ]
-                            },
-                            {
-                                "id": 5,
-                                "text": "custom icon",
-                                "value": "custom icon",
-                                "icon": "fa fa-warning icon-state-warning",
-                                "opened": false,
-                                "selected": false,
-                                "disabled": false,
-                                "loading": false,
-                                "children": []
-                            },
-                            {
-                                "id": 6,
-                                "text": "disabled node",
-                                "value": "disabled node",
-                                "icon": "fa fa-check icon-state-success",
-                                "opened": false,
-                                "selected": false,
-                                "disabled": true,
-                                "loading": false,
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "text": "Same but with checkboxes",
-                        "value": "Same but with checkboxes",
+                        "text": "Quyền Hệ Thống",
+                        "value": "gia tri 1",
                         "icon": "",
                         "opened": true,
                         "selected": false,
@@ -195,43 +116,149 @@
                         "loading": false,
                         "children": [
                             {
-                                "id": 8,
-                                "text": "initially selected",
-                                "value": "initially selected",
+                                "id": 1,
+                                "text": "Hệ Thống",
+                                "value": "he thong",
                                 "icon": "",
-                                "opened": false,
-                                "selected": true,
-                                "disabled": false,
-                                "loading": false,
-                                "children": []
-                            },
-                            {
-                                "id": 9,
-                                "text": "custom icon",
-                                "value": "custom icon",
-                                "icon": "fa fa-warning icon-state-danger",
-                                "opened": false,
-                                "selected": false,
-                                "disabled": false,
-                                "loading": false,
-                                "children": []
-                            },
-                            {
-                                "id": 10,
-                                "text": "initially open",
-                                "value": "initially open",
-                                "icon": "fa fa-folder icon-state-default",
                                 "opened": true,
-                                "selected": false,
+                                "selected": true,
                                 "disabled": false,
                                 "loading": false,
                                 "children": [
                                     {
-                                        "id": 11,
-                                        "text": "Another node",
-                                        "value": "Another node",
+                                        "id": 111,
+                                        "text": "Nhóm Quyền",
+                                        "value": "nhom quyen",
                                         "icon": "",
-                                        "opened": false,
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+                                            {
+                                                "id": 1115,
+                                                "text": "Xem",
+                                                "value": "xem",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 1111,
+                                                "text": "Thêm mới",
+                                                "value": "them-moi",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 1112,
+                                                "text": "Chỉnh sửa",
+                                                "value": "sua",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 1113,
+                                                "text": "Xóa",
+                                                "value": "xoa",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 112,
+                                        "text": "Tài Khoản",
+                                        "value": "tai khoan",
+                                        "icon": "",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+                                            {
+                                                "id": 100,
+                                                "text": "Xem",
+                                                "value": "xem",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 101,
+                                                "text": "Thêm mới",
+                                                "value": "them-moi",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 102,
+                                                "text": "Chỉnh sửa",
+                                                "value": "sua",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            },
+                                            {
+                                                "id": 103,
+                                                "text": "Xóa",
+                                                "value": "xoa",
+                                                "icon": "fa fa-key blue",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 113,
+                                        "text": "Cấu Hình",
+                                        "value": "cau hinh",
+                                        "icon": "",
+                                        "opened": true,
                                         "selected": false,
                                         "disabled": false,
                                         "loading": false,
@@ -240,65 +267,250 @@
                                 ]
                             },
                             {
-                                "id": 12,
-                                "text": "custom icon",
-                                "value": "custom icon",
-                                "icon": "fa fa-warning icon-state-warning",
-                                "opened": false,
+                                "id": 7,
+                                "text": "Danh Mục",
+                                "value": "danh-muc",
+                                "icon": "",
+                                "opened": true,
                                 "selected": false,
                                 "disabled": false,
                                 "loading": false,
-                                "children": []
+                                "children": [
+                                    {
+                                        "id": 71,
+                                        "text": "Sách",
+                                        "value": "sach",
+                                        "icon": "",
+                                        "opened": true,
+                                        "selected": true,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+                                            {
+                                                "id": 72,
+                                                "text": "Tiếng Việt",
+                                                "value": "tieng-viet",
+                                                "icon": "",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": [
+                                                    {
+                                                        "id": 73,
+                                                        "text": "Sách giáo khoa",
+                                                        "value": "tieng-viet",
+                                                        "icon": "",
+                                                        "opened": true,
+                                                        "selected": false,
+                                                        "disabled": false,
+                                                        "loading": false,
+                                                        "children": [
+                                                            {
+                                                                "id": 1000,
+                                                                "text": "Xem",
+                                                                "value": "xem",
+                                                                "icon": "fa fa-key blue",
+                                                                "opened": true,
+                                                                "selected": false,
+                                                                "disabled": false,
+                                                                "loading": false,
+                                                                "children": [
+
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": 1010,
+                                                                "text": "Thêm mới",
+                                                                "value": "them-moi",
+                                                                "icon": "fa fa-key blue",
+                                                                "opened": true,
+                                                                "selected": false,
+                                                                "disabled": false,
+                                                                "loading": false,
+                                                                "children": [
+
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": 1020,
+                                                                "text": "Chỉnh sửa",
+                                                                "value": "sua",
+                                                                "icon": "fa fa-key blue",
+                                                                "opened": true,
+                                                                "selected": false,
+                                                                "disabled": false,
+                                                                "loading": false,
+                                                                "children": [
+
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": 1030,
+                                                                "text": "Xóa",
+                                                                "value": "xoa",
+                                                                "icon": "fa fa-key blue",
+                                                                "opened": true,
+                                                                "selected": false,
+                                                                "disabled": false,
+                                                                "loading": false,
+                                                                "children": [
+
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": 74,
+                                                        "text": "Sách tham khảo",
+                                                        "value": "tieng-anh",
+                                                        "icon": "",
+                                                        "opened": true,
+                                                        "selected": false,
+                                                        "disabled": false,
+                                                        "loading": false,
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 75,
+                                                "text": "Tiếng Anh",
+                                                "value": "tieng-anh",
+                                                "icon": "",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": 11,
+                                                "text": "Ngôn Ngữ Khác",
+                                                "value": "ngon-ngu-khac",
+                                                "icon": "",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 72,
+                                        "text": "Sản Phẩm",
+                                        "value": "san-pham",
+                                        "icon": "fa fa-warning icon-state-danger",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 10,
+                                        "text": "Thư Viện",
+                                        "value": "thu-vien",
+                                        "icon": "fa fa-folder icon-state-default",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+                                            {
+                                                "id": 11,
+                                                "text": "Văn Học",
+                                                "value": "van-hoc",
+                                                "icon": "",
+                                                "opened": true,
+                                                "selected": false,
+                                                "disabled": false,
+                                                "loading": false,
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 12,
+                                        "text": "custom icon",
+                                        "value": "custom icon",
+                                        "icon": "fa fa-warning icon-state-warning",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
-                                "id": 13,
-                                "text": "disabled node",
-                                "value": "disabled node",
-                                "icon": "fa fa-check icon-state-success",
-                                "opened": false,
+                                "id": 7,
+                                "text": "Lược Đồ",
+                                "value": "luoc-do",
+                                "icon": "",
+                                "opened": true,
                                 "selected": false,
-                                "disabled": true,
+                                "disabled": false,
                                 "loading": false,
-                                "children": []
+                                "children": [
+                                    {
+                                        "id": 701,
+                                        "text": "Xem",
+                                        "value": "xem",
+                                        "icon": "fa fa-key blue",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+
+                                        ]
+                                    },
+                                    {
+                                        "id": 702,
+                                        "text": "Thêm mới",
+                                        "value": "them-moi",
+                                        "icon": "fa fa-key blue",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+
+                                        ]
+                                    },
+                                    {
+                                        "id": 703,
+                                        "text": "Chỉnh sửa",
+                                        "value": "sua",
+                                        "icon": "fa fa-key blue",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+
+                                        ]
+                                    },
+                                    {
+                                        "id": 704,
+                                        "text": "Xóa",
+                                        "value": "xoa",
+                                        "icon": "fa fa-key blue",
+                                        "opened": true,
+                                        "selected": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "children": [
+
+                                        ]
+                                    }
+                                ]
                             }
                         ]
-                    },
-                    {
-                        "id": 14,
-                        "text": "And wholerow selection",
-                        "value": "And wholerow selection",
-                        "icon": "",
-                        "opened": false,
-                        "selected": false,
-                        "disabled": false,
-                        "loading": false,
-                        "children": []
-                    },
-                    {
-                        "id": 15,
-                        "text": "drag disabled",
-                        "value": "drag disabled",
-                        "icon": "fa fa-warning icon-state-danger",
-                        "opened": false,
-                        "selected": false,
-                        "disabled": false,
-                        "loading": false,
-                        "children": [],
-                        "dragDisabled": true
-                    },
-                    {
-                        "id": 16,
-                        "text": "drop disabled",
-                        "value": "drop disabled",
-                        "icon": "fa fa-warning icon-state-danger",
-                        "opened": false,
-                        "selected": false,
-                        "disabled": false,
-                        "loading": false,
-                        "children": [],
-                        "dropDisabled": true
                     }
-                ]
+                ];
             },
             addGroup(group) {
                 this.editmode = false;
@@ -322,7 +534,7 @@
                         })
                         .catch(() => {
 
-                        })
+                        });
             },
             updateGroup(id) {
                 this.$Progress.start();
@@ -337,7 +549,7 @@
                             this.$Progress.finish();
                         }).catch(() => {
                     this.$Progress.fail();
-                })
+                });
             },
             deleteGroup(id) {
                 swal({
@@ -360,9 +572,9 @@
                             Fire.$emit('AfterCreate');
                         }).catch(() => {
                             swal('Failed!', 'There was something wrong.', 'warning');
-                        })
+                        });
                     }
-                })
+                });
             },
             itemClick(node) {
                 console.log(node.model.text + ' clicked !')
